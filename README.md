@@ -1,8 +1,57 @@
-# Getting Started with Create React App
+# Getting Started 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction
+Welcome to our web application! This document provides an overview of the features and functionalities of our app, as well as instructions on how to use it effectively.
 
-## Available Scripts
+Purpose
+The purpose of our web application is to allow users to load a CSV file with preformatted data and display the data as cards on the website. Users can also search for data within the loaded CSV file using a search bar.
+
+Getting Started
+Before you begin using the web application, please make sure you have the following installed on your machine:
+
+Node.js
+npm (Node Package Manager)
+Next, follow these steps to set up the application:
+
+Clone the repository to your local machine.
+Navigate to the project directory in your terminal or command prompt.
+Install the required dependencies by running the following command:
+
+  npm install
+  npm start
+
+Frontend (React) Usage
+The frontend of our web application is built using React, 
+providing a user-friendly and responsive interface for users to interact with the data.
+
+File Upload
+To load a CSV file with preformatted data, follow these steps:
+
+Click on the "Choose File" button.
+Select the desired CSV file from your local machine and click "Open."
+The web application will parse the CSV file in memory and display each row's data as cards on the website.
+
+Search Functionality
+To search for specific data within the loaded CSV file, use the search bar:
+
+Type your search query into the search bar.
+Click the "Search" button or press Enter.
+The displayed cards will be updated to show only the matching results that meet the search criteria.
+
+Backend (Node.js with Express) Usage (Optional)
+Our web application can work in a standalone mode without the backend. 
+However, if you wish to use the backend for additional features or data storage, follow these steps:
+
+Set up the backend by navigating to the csv-data-api folder in your terminal or command prompt.
+  npm install
+  node index.js
+
+Automated Tests (Optional)
+We have included automated tests to ensure the reliability and correctness of our web application. 
+To run the tests, use the following command:
+  npm test
+
+### Available Scripts
 
 In the project directory, you can run:
 
